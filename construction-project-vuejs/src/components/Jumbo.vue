@@ -65,7 +65,8 @@ export default {
         }
     }
     .position-sale {
-        top: 12%
+        top: 12%;
+        margin-top: 0.5em;
     }
     #dollarbaby {
         font-size: 10px;
@@ -98,9 +99,9 @@ export default {
     }
     .btn-explore {
         display: inline-block;
-        background-color: rgb(58, 57, 57);
+        background-color: rgb(36, 36, 36);
         text-transform: uppercase;
-        font-size: 16px;
+        font-size: 15px;
         color:white;
         padding: 0.5em 1.2em 0.5em 1.2em;
         border-radius: 4px;
