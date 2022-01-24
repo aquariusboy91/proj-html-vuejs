@@ -1,8 +1,15 @@
 <template>
     <div class="container-fluid position-relative">
-            <div class="folder">
+            <a href=""><div class="folder">
                 <i class="fas fa-folder"></i>
-                <span>Demos</span>
+                <span>Demos&nbsp;</span>
+            </div></a>
+            <a href=""><div class="folder position-sale">
+                <span id="dollarbaby">$</span><span id="offer">39</span>
+                <span id="onsale">On Sale </span>
+            </div></a>
+            <div>
+                <h1>ciao</h1>
             </div>
         
     </div>
@@ -36,18 +43,37 @@ export default {
         margin-right: 0.5em;
         margin-top: 1em;
         border-radius: 5px;
-        padding: 0.3em 0.5em 0.3em 0.5em;
+        padding: 0.3em 0.7em 0.3em 0.7em;
         i {
             display: block;
             font-size: 20px;
             text-align: center;
-            color: #37393A;
+            color: #3C4043;
         }   
         span {
             font-size: 10px;
-            font-weight: bold;
-            color: #37393A;
+            color: #3C4043;
         }
+    }
+    .position-sale {
+        top: 12%
+    }
+    #dollarbaby {
+        font-size: 10px;
+        vertical-align: 0.8em;
+        text-align: right;
+        color: rgb(167, 196, 3);
+        font-weight: bold;
+    }
+    #offer {
+        font-size: 20px;
+        text-align: right;
+        color: rgb(167, 196, 3);
+        font-weight: bold;
+    }
+    #onsale {
+        display: block;
+        text-align: center;
     }
 
 </style>

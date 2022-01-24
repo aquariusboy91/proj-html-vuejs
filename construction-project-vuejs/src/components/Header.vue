@@ -3,7 +3,7 @@
         <div class="row">
             <nav class="navbar navbar-expand-lg navbar-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"> <img src="..\assets\img\construction_logo.png" alt="" class="logo"></a>
+    <a class="navbar-brand" href="#"> <img src="..\assets\img\construction_logo.png" alt="" class="logo mt-2 mb-2"></a>
     <div class="navbar-collapse justify-content-end" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item me-2">
