@@ -8,10 +8,16 @@
                 <span id="dollarbaby">$</span><span id="offer">39</span>
                 <span id="onsale">On Sale </span>
             </div></a>
-            <div>
-                <h1>ciao</h1>
-            </div>
-        
+           <div class ="row h-500 flex-column justify-content-center align-items-center ">
+               <div class="col-10 flex-column text-center d-flex justify-content-center">
+                   <h1>Building Inspiring Spaces</h1>
+                   <p>We build inspiring residential e commercial spaces</p>
+                </div>
+                <div class="col-10 d-flex justify-content-center">
+                    <a href=""><div class="btn-explore">explore recent work</div></a>
+                    <a href=""><div class="btn-explore quote">get quote today</div></a>
+                </div>
+           </div>
     </div>
 </template>
 
@@ -28,9 +34,12 @@ export default {
 
 <style lang="scss" scoped>
 @import '@fortawesome/fontawesome-free';
+    h1, p, span {
+        font-family: 'Libre Franklin', sans-serif;
+    }
     .container-fluid {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/img/work.jpg);
-        height: 500px;
+        height: 600px;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -74,6 +83,32 @@ export default {
     #onsale {
         display: block;
         text-align: center;
+    }
+    .h-500 {
+        height: 600px;
+    }
+    h1 {
+        text-transform: uppercase;
+        color: white;
+        font-size: 50px;
+    }
+    p {
+        color: #EFC338;
+        font-size: 22px;
+    }
+    .btn-explore {
+        display: inline-block;
+        background-color: rgb(58, 57, 57);
+        text-transform: uppercase;
+        font-size: 16px;
+        color:white;
+        padding: 0.5em 1.2em 0.5em 1.2em;
+        border-radius: 4px;
+    }
+    .quote {
+        margin-left: 1em;
+        background-color: #EFC338 ;
+        color: grey
     }
 
 </style>
