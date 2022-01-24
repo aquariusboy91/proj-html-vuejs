@@ -7,7 +7,7 @@
     <div class="navbar-collapse justify-content-end" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item me-2">
-          <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          <a class="nav-link" id="home" aria-current="page" href="#">HOME</a>
         </li>
         <li class="nav-item me-2">
           <a class="nav-link" href="#">ABOUT</a>
@@ -59,6 +59,9 @@ export default {
     
     #navbarNavDropdown .navbar-nav > li > a:hover{
     color:#c7a021 ;
-}
+  }
+    #home {
+      color: #F4C939;
+    }
 
 </style>
