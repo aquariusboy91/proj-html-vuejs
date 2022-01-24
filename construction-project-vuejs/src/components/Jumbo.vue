@@ -1,8 +1,9 @@
 <template>
-    <div class="container-fluid">
-        <div clas="row">
-            <i class="fas fa-folder text-white"></i>
-        </div>
+    <div class="container-fluid position-relative">
+            <div class="folder">
+                <i class="fas fa-folder"></i>
+                <span>Demos</span>
+            </div>
         
     </div>
 </template>
@@ -26,7 +27,27 @@ export default {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: brightness(60%);
+    }
+    .folder {
+        background-color: white;
+        display: inline;
+        position: absolute;
+        right: 0;
+        margin-right: 0.5em;
+        margin-top: 1em;
+        border-radius: 5px;
+        padding: 0.3em 0.5em 0.3em 0.5em;
+        i {
+            display: block;
+            font-size: 20px;
+            text-align: center;
+            color: #37393A;
+        }   
+        span {
+            font-size: 10px;
+            font-weight: bold;
+            color: #37393A;
+        }
     }
 
 </style>
