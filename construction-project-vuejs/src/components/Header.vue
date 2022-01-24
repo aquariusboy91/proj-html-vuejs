@@ -1,30 +1,30 @@
 <template>
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"> <img src="..\assets\img\construction_logo.png" alt="" class="logo"></a>
-    <div class="navbar-collapse" id="navbarNavDropdown">
+    <div class="navbar-collapse justify-content-end" id="navbarNavDropdown">
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <li class="nav-item me-2">
+          <a class="nav-link active" aria-current="page" href="#">HOME</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+        <li class="nav-item me-2">
+          <a class="nav-link" href="#">ABOUT</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+        <li class="nav-item me-2">
+          <a class="nav-link" href="#">SERVICES </a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown link
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
+        <li class="nav-item me-2">
+          <a class="nav-link" href="#">WORK </a>
         </li>
+        <li class="nav-item me-2">
+          <a class="nav-link" href="#">ARTICLES</a>
+        </li>
+        <li class="nav-item quote ms-2 pe-1 ps-1">
+          <a class="nav-link" href="#">GET QUOTE</a>
+        </li>
+        
       </ul>
     </div>
   </div>
@@ -42,15 +42,23 @@ export default {
 
 <style lang="scss" scoped>
     #navbarNavDropdown {
-        justify-content: flex-end;
+        font-size: 11px;
+    
     }
     * {
         font-family: 'Libre Franklin', sans-serif;
     }
     .logo {
-        width: 210px;
+        width: 100%;
         height: 60px;
 
     }
+    .quote {
+        background-color: #F4C939;
+    }
+    
+    #navbarNavDropdown .navbar-nav > li > a:hover{
+    color:#c7a021 ;
+}
 
 </style>
