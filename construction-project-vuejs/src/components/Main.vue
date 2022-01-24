@@ -58,7 +58,7 @@ export default {
         height: 220px;
     }
     .h-600 {
-        height: 600px;
+        height: 500px;
     }
 
     .mt-container {
@@ -79,6 +79,14 @@ export default {
         display: inline-block;
         margin-right: 1em;
         border-radius: 5px;
+         p {
+            font-size: 12px;
+            color: gray;
+            line-height: 2em;
+        }
+        h4 {
+            color: rgb(78, 78, 78);
+        }
     }
     .round-div {
         border: 2px solid gray;
@@ -93,6 +101,7 @@ export default {
         align-items: center;
         margin-top: 1em;
         color: gray;
+       
     }
 
 </style>

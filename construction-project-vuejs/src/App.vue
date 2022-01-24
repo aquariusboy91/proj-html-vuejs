@@ -4,6 +4,7 @@
     <Jumbo />
     <UnderJambo />
     <Main />
+    <MainData />
   </div>
 </template>
 
@@ -12,7 +13,7 @@ import Header from "./components/Header.vue";
 import Jumbo from "./components/Jumbo.vue";
 import UnderJambo from "./components/UnderJambo.vue";
 import Main from "./components/Main.vue";
-
+import MainData from "./components/MainData.vue";
 export default {
   name: "App",
   components: {
@@ -20,6 +21,7 @@ export default {
     Jumbo,
     UnderJambo,
     Main,
+    MainData,
   },
 };
 
