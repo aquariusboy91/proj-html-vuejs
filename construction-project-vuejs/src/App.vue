@@ -9,6 +9,7 @@
     <MainCoreValues />
     <MainFeedback />
     <MainNews />
+    <Partners />
   </div>
 </template>
 
@@ -22,6 +23,7 @@ import MainPortfolio from "./components/MainPortfolio.vue";
 import MainCoreValues from "./components/MainCoreValues.vue";
 import MainFeedback from "./components/MainFeedback.vue";
 import MainNews from "./components/MainNews.vue";
+import Partners from "./components/Partners.vue";
 
 export default {
   name: "App",
@@ -35,6 +37,7 @@ export default {
     MainCoreValues,
     MainFeedback,
     MainNews,
+    Partners,
   },
 };
 
