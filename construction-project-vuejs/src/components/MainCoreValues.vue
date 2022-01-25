@@ -12,29 +12,29 @@
                 <div class="round-div mb-1">
                        <i class="fas fa-home"></i>
                 </div>
-                <span>2534</span>
-                <p>planning application</p>
+                <span>Great Services</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aliquam quis quod nulla dicta, suscipit dolore tempora labore necessitatibus optio.</p>
             </div>
                 <div class="counter d-flex flex-column justify-content-center align-items-center">
-                    <div class="round-div mb-1">
-                        <i class="far fa-building"></i>
+                    <div class="round-div mb-1 engine">
+                        <i class="fas fa-cog"></i>
                     </div>
-                    <span>896</span>
-                    <p>completed projects</p>
+                    <span>Highest Stardards </span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aliquam quis quod nulla dicta, suscipit dolore tempora labore necessitatibus optio.</p>
             </div>
             <div class="counter d-flex flex-column justify-content-center align-items-center">
-                <div class="round-div mb-1">
+                <div class="round-div mb-1 users">
                     <i class="fas fa-users"></i>
                 </div>
-                <span>172</span>
-                <p>trained professionals</p>
+                <span>Professional Team</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aliquam quis quod nulla dicta, suscipit dolore tempora labore necessitatibus optio.</p>
             </div>
             <div class="counter d-flex flex-column justify-content-center align-items-center">
-                <div class="round-div mb-1">
-                    <i class="fas fa-globe"></i>
+                <div class="round-div mb-1 idea">
+                    <i class="far fa-lightbulb"></i>
                 </div>
-                <span>19</span>
-                <p>international offices</p>
+                <span>Creative Solutions</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aliquam quis quod nulla dicta, suscipit dolore tempora labore necessitatibus optio.</p>
             </div>
     </div>
     </div>
@@ -83,6 +83,32 @@ export default {
         color: white;
         background-color: #8faeb8;
        
+    }
+    .engine {
+        background-color: #6586b1;
+        border-color:#6586b1 ;
+    }
+
+    .users {
+        background-color: #fe6f1d;
+        border-color: #fe6f1d;
+    }
+
+    .idea {
+        background-color: #f9d03f;
+        border-color: #f9d03f;
+    }
+
+    span {
+        margin-top: 0.5em;
+    }
+
+    p {
+        font-size: 12px;
+        color: grey;
+        text-align: center;
+        line-height: 2em;
+        margin-top: 0.5em
     }
 
 </style>
