@@ -15,6 +15,11 @@
                 :date="card.date"
                 :descr="card.descr" />
             </div>
+            <div class="d-flex justify-content-center mt-5">
+                <hr>
+                <a href=""><span class="link-project">view all projects</span></a>
+                <hr>
+         </div>
     </div>
   
 </template>
@@ -61,6 +66,16 @@ export default {
         color: grey;
         font-size: 12px;
         line-height: 2em;
+    }
+    .link-project {
+        margin-right: 2em;
+        margin-left: 2em;
+        font-size: 10px;
+        text-transform: uppercase;
+    }
+    a, a:hover{
+        text-decoration: none;
+        color: rgb(177, 177, 177);
     }
 
 </style>
