@@ -6,6 +6,7 @@
     <Main />
     <MainData />
     <MainPortfolio />
+    <MainCoreValues />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import UnderJambo from "./components/UnderJambo.vue";
 import Main from "./components/Main.vue";
 import MainData from "./components/MainData.vue";
 import MainPortfolio from "./components/MainPortfolio.vue";
+import MainCoreValues from "./components/MainCoreValues.vue";
 
 export default {
   name: "App",
@@ -26,6 +28,7 @@ export default {
     Main,
     MainData,
     MainPortfolio,
+    MainCoreValues,
   },
 };
 
