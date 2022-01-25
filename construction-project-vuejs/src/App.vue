@@ -7,6 +7,8 @@
     <MainData />
     <MainPortfolio />
     <MainCoreValues />
+    <MainFeedback />
+    <MainNews />
   </div>
 </template>
 
@@ -18,6 +20,8 @@ import Main from "./components/Main.vue";
 import MainData from "./components/MainData.vue";
 import MainPortfolio from "./components/MainPortfolio.vue";
 import MainCoreValues from "./components/MainCoreValues.vue";
+import MainFeedback from "./components/MainFeedback.vue";
+import MainNews from "./components/MainNews.vue";
 
 export default {
   name: "App",
@@ -29,6 +33,8 @@ export default {
     MainData,
     MainPortfolio,
     MainCoreValues,
+    MainFeedback,
+    MainNews,
   },
 };
 
