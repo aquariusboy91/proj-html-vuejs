@@ -5,6 +5,7 @@
     <UnderJambo />
     <Main />
     <MainData />
+    <MainPortfolio />
   </div>
 </template>
 
@@ -14,6 +15,8 @@ import Jumbo from "./components/Jumbo.vue";
 import UnderJambo from "./components/UnderJambo.vue";
 import Main from "./components/Main.vue";
 import MainData from "./components/MainData.vue";
+import MainPortfolio from "./components/MainPortfolio.vue";
+
 export default {
   name: "App",
   components: {
@@ -22,6 +25,7 @@ export default {
     UnderJambo,
     Main,
     MainData,
+    MainPortfolio,
   },
 };
 
