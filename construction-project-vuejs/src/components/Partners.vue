@@ -48,10 +48,10 @@ export default {
         line-height: 2em;
     }
     .h-500 {
-        height: 600px;
+        height: 400px;
     }
     img {
-        width: 150px;
+        width: 170px;
         height: 100px;
     }
     .w-60 {
