@@ -1,6 +1,6 @@
 <template>
     <div class="container-fluid d-flex justify-content-center align-items-center">
-        <div class="row h-350 justify-content-center align-items-center">
+        <div class="row h-350 w-600 justify-content-center align-items-center">
             <div class="col-8 text-center d-flex flex-column align-items-center">
                  <h3>Our Home Owners Say</h3>
                  <hr>
@@ -54,8 +54,8 @@ export default {
         font-size: 14px;
     }
     hr {
-        color: #fd6208;
-        border: 2px solid #ff660d;
+        color: #ffb285;
+        border: 2px solid #ffa26c;
     }
     i {
         font-size: 5px;
@@ -67,4 +67,8 @@ export default {
     .w-400 {
         width: 400px;
     } 
+    .w-600 {
+        width: 600px;
+}
+    
 </style>
