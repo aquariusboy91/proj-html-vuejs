@@ -58,5 +58,8 @@ export default {
         width: 85%;
         margin:auto;
     }
+    hr {
+            color: orange;
+        }
 
 </style>

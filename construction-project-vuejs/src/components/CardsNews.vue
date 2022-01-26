@@ -55,7 +55,7 @@ export default {
         width: 80%;
         margin: auto;
         margin-bottom: 1em;
-        color: rgb(167, 167, 167)
+        color: orange;
     }
     
 

@@ -71,7 +71,7 @@ export default {
     }
 
     hr {
-        color: #FED03D;
+        color: orange;
         width: 250px;
         border-top: 3px solid #d6b034;
     }

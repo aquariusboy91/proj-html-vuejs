@@ -77,5 +77,8 @@ export default {
         text-decoration: none;
         color: rgb(177, 177, 177);
     }
+    hr {
+            color: orange;
+        }
 
 </style>

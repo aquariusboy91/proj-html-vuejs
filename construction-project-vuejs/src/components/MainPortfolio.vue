@@ -55,6 +55,7 @@ export default {
     }
     hr {
         display: inline-block;
+        color: orange;
     }
     .link-project {
         margin-right: 2em;

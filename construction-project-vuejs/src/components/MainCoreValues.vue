@@ -110,5 +110,8 @@ export default {
         line-height: 2em;
         margin-top: 0.5em
     }
+    hr {
+        color:orange;
+    }
 
 </style>
