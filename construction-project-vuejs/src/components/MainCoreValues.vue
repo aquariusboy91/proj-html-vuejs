@@ -1,6 +1,6 @@
 <template>
     <div class="container-fluid h-500 mt-5 pt-5">
-        <div class="row h-350 justify-content-center">
+        <div class="row justify-content-center">
             <div class="col-8 text-center d-flex flex-column align-items-center">
                  <h3>Our Core Values</h3>
                  <hr>
@@ -50,7 +50,7 @@ export default {
 
 <style lang="scss" scoped>
 .h-500 {
-        height: 600px;
+        height: 500px;
         background-color: #f0ede6;
     }
 
