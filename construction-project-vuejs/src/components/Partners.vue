@@ -44,7 +44,7 @@ export default {
     }  
      p {
         color: grey;
-        font-size: 12px;
+        font-size: 13px;
         line-height: 2em;
     }
     .h-500 {

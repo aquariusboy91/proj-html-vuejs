@@ -45,7 +45,7 @@ export default {
         background-color: #EFC338 ;
         text-transform: uppercase;
         font-size: 15px;
-        color: gray;
+        color: white;
         padding: 0.5em 1.2em 0.5em 1.2em;
         border-radius: 4px;
         margin-bottom: 1em;

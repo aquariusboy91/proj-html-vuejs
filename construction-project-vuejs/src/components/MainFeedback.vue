@@ -55,7 +55,6 @@ export default {
     }
     hr {
         color: #ffb285;
-        border: 2px solid #ffa26c;
     }
     i {
         font-size: 5px;

@@ -109,7 +109,7 @@ export default {
     .quote {
         margin-left: 1em;
         background-color: #EFC338 ;
-        color: grey
+        color: white;
     }
 
 </style>

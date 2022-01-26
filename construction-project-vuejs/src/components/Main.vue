@@ -107,5 +107,10 @@ export default {
         color: gray;
        
     }
+    p {
+            font-size: 13px;
+            color: gray;
+            line-height: 2em;
+        }
 
 </style>
