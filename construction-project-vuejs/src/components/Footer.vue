@@ -10,7 +10,7 @@
 
             </div>
             <div class="col-3 card-tweet">
-                <span>Latest Tweets</span>
+                <span class="title-section">latest tweets</span>
                 <div>
                     <div class="rounded mt-2">
                         <img src="..\assets\img\cropcircle.png">
@@ -27,11 +27,54 @@
                     <span class="offer-wp">30% Off</span>
                     <p class="p-wp margin-top">5 months free on annual shared plan</p>
                      <a href=""><div class="btn-wp-avada">avada30</div></a>
-
                 </div>
+                 <div class="share d-flex justify-content-between align-items-center mt-1">
+                         <i class="far fa-heart margin-left"></i>
+                         <i class="fas fa-share-square p-r"></i>
+                         <span class="mt-0">22h</span>
+                     </div>
             </div>
-            <div class="col-2"></div>
-            <div class="col-2"></div>
+            <div class="col-3">
+                <span class="title-section">contact us today</span>
+                <ul>
+                    <li>
+                        <i class="fas fa-globe p-r1"></i>
+                        <span>Corporate Location</span><br>
+                        <span class="p-r2">1600 Amphitheatre Parkway</span><br>
+                        <span class="p-r2">London WC1 1BA</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-home p-r1"></i>
+                        <span>Residential Location</span><br>
+                        <span class="p-r2">9521 Broadsberry Avenue</span><br>
+                        <span class="p-r2">Paddington RC7 9ZA</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone p-r1"></i>
+                        <span>1.800.458.556 / 1.800.532.2112</span><br>
+                        
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope p-r1"></i>
+                        <span>info@your-domain.com</span><br>
+                        
+                    </li>
+                    <li>
+                        <i class="fas fa-clock p-r1"></i>
+                        <span>Monday - Friday: 9:00AM - 6:00PM</span><br>
+                        
+                    </li>
+                    <li>
+                        <i class="fas fa-clock p-r1"></i>
+                        <span>Saturday - Sunday: 9:00AM - 12:00PM</span><br>
+                       
+                    </li>
+                </ul>
+            </div>
+            <div class="col-2">
+                <span class="title-section">find us</span>
+                <div class="findus"></div>
+            </div>
         </div>
     </div>
   
@@ -113,7 +156,7 @@ export default {
     .offer {
         width: 93%;
         height: 200px;
-        background: rgb(43, 43, 43);
+        background: rgb(34, 34, 34);
         margin-left: 1.8em;
         margin-top: 1em;
         border-radius: 3px;
@@ -131,7 +174,7 @@ export default {
         margin-bottom: 0.5em;
     }
     .btn-wp {
-        background-color: rgb(34, 34, 34);
+        background-color: rgb(20, 20, 20);
         font-size: 4px;
         padding: 1em 2em 1em 2em;
         border-radius: 4px;
@@ -158,7 +201,44 @@ export default {
     .margin-top {
         margin-top: 0;
     }
+
+    .margin-left {
+        margin-left: 3em;
+    }
+    .share {
+        font-size: 10px;
+
+    }
+    .p-r{
+        padding-right: 15em;
+    }
     
+    ul {
+        list-style-type: none;
+    }
+    .p-r1 {
+        padding-right: 1em;
+    }
+
+    .p-r2 {
+        padding-left: 2em;
+    }
+    li {
+        line-height: 2em;
+        color: gray;
+    }
+    .title-section {
+        font-size: 16px;
+        font-size: bold;
+        text-transform: uppercase;
+        color: orange;
+    }
+    .findus {
+        width: 250px;
+        height: 300px;
+        background-image: url(../assets/img/findus1.png);
+        margin-top: 1em;
+    }
     
     
 
