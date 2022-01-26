@@ -90,7 +90,7 @@ export default {
 <style lang="scss" scoped>
     .container-fluid {
         height: 450px;
-        background-color: black;
+        background-color: rgb(32, 32, 32);
     }
     .logo {
         width: 170px;
@@ -156,7 +156,7 @@ export default {
     .offer {
         width: 93%;
         height: 200px;
-        background: rgb(34, 34, 34);
+        background: rgb(37, 37, 37);
         margin-left: 1.8em;
         margin-top: 1em;
         border-radius: 3px;
@@ -215,6 +215,7 @@ export default {
     
     ul {
         list-style-type: none;
+        margin-top: 0.5em;
     }
     .p-r1 {
         padding-right: 1em;

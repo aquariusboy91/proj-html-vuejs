@@ -12,6 +12,7 @@
     <Partners />
     <Banner />
     <Footer />
+    <Subfooter />
   </div>
 </template>
 
@@ -28,6 +29,7 @@ import MainNews from "./components/MainNews.vue";
 import Partners from "./components/Partners.vue";
 import Banner from "./components/Banner.vue";
 import Footer from "./components/Footer.vue";
+import Subfooter from "./components/Subfooter.vue";
 
 export default {
   name: "App",
@@ -44,6 +46,7 @@ export default {
     Partners,
     Banner,
     Footer,
+    Subfooter,
   },
 };
 
