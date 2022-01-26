@@ -11,6 +11,7 @@
     <MainNews />
     <Partners />
     <Banner />
+    <Footer />
   </div>
 </template>
 
@@ -26,6 +27,7 @@ import MainFeedback from "./components/MainFeedback.vue";
 import MainNews from "./components/MainNews.vue";
 import Partners from "./components/Partners.vue";
 import Banner from "./components/Banner.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
@@ -41,6 +43,7 @@ export default {
     MainNews,
     Partners,
     Banner,
+    Footer,
   },
 };
 

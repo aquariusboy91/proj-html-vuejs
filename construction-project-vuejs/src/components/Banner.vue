@@ -25,7 +25,7 @@ export default {
 <style lang="scss" scoped>
     .container-fluid {
         background-image: url(../assets/img/calltoaction.jpg);
-        height: 400px;
+        height: 300px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: bottom;
